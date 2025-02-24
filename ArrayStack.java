@@ -1,9 +1,9 @@
 import java.util.*;
-public class LinkedStack{    
+public class ArrayStack{    
 protected int capacity;
 protected int[] stack;
 protected int top = -1;
-public LinkedStack(int cap) {
+public ArrayStack(int cap) {
 capacity = cap;
 stack = new int[capacity];
 }
@@ -56,7 +56,7 @@ public void display()
 }
 public static void main(String[] args)
 {
-    LinkedStack s=new LinkedStack(5);
+    ArrayStack s=new ArrayStack(5);
     Scanner sc=new Scanner(System.in);
     int data,ch;
     do
